@@ -1,0 +1,198 @@
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color:#00b8a9;
+    text-align: center;
+}
+h1{
+    
+    margin: 0;
+    
+}
+a{
+    
+    color: crimson;
+    font-family: lobster;
+    font-size: 2.5vw;
+    margin: 2vw;
+    text-decoration: none;
+}
+a:hover{
+    color: darkblue;
+}
+.top-section{
+    background-color: #f8f3d4;
+    position: relative;
+    padding-top: 1vw;
+    height: 45vw;
+}
+
+
+.right-image{
+    width: 20%;
+    position:absolute;
+    right: 0;
+}
+.left-image{
+    width: 20%;
+    position:absolute;
+    left: 0;
+    
+}
+.myName{
+
+    font-family: lobster;
+    font-size: 6.5vw;
+    position: absolute;
+    top: 6.5vw;
+    left: 26.1vw;
+    color: rosybrown;
+    line-height: 1;
+
+}
+.myJob{
+    font-family: lobster;
+    font-size: 4.5vw;
+    position: absolute;
+    top:10vw;
+    left: 25vw;
+    line-height: 2;
+
+}
+.middle-image{
+    width: 80vw;
+    position: relative;
+    top:14vw;
+}
+.soma{
+    color: saddlebrown;
+}
+.middle-section{
+    margin-top: 1vw;
+}
+.myImage{
+    width: 20%;
+    border-radius: 50%;
+    border:solid 2px brown;
+}
+.welcome{
+    font-family: lobster;
+    font-size: 7vw;
+    color: rosybrown;
+    line-height: 1;
+    margin: 1vw,0;
+}
+.bio{
+    width: 50%;
+    margin: auto;
+    font-size: 2.5vw;
+}
+.mySkills{
+    font-family: lobster;
+    font-size: 7vw;
+    color: rosybrown;
+    line-height: 1;
+    margin-top: 3vw;
+
+}
+.skill-item-left{
+    text-align: left;
+    font-size: 2.5vw;
+}
+.skill-item-left>img{
+    width: 15%;
+    margin-left: 2vw;
+    float: left;
+    margin-right: 1vw;
+}
+.skill-item-left>h3{
+    font-family: lobster;
+    font-size: 4vw;
+    color: rosybrown;
+
+}
+.skill-item-left>p{
+    width: 50%;
+    font-size: 2.5vw;
+   float: left;
+   margin: 0;
+   
+
+}
+.skill-item-right{
+    float: right;
+}
+.skill-item-right>img{
+    width: 25%;
+    float: right;
+
+}
+.skill-item-right>h3{
+    font-family: lobster;
+    font-size: 4vw;
+    color: rosybrown;
+    float: right;
+
+}
+.skill-item-right>p{
+    float:right;
+    width: 50%;
+    font-size: 2.5vw;
+    margin: 0;
+}
+.contact-me{
+    clear: both;
+}
+.contact-title{
+    font-family: lobster;
+    font-size: 7vw;
+    color: rosybrown;
+    padding:3vw 0 0;
+    margin: 0 auto;
+
+}
+.contact-intro{
+    
+    font-size: 2.4vw;
+    margin-bottom: 2.5vw;
+}
+.btn {
+    background: #34d3d9;
+    background-image: -webkit-linear-gradient(top, #34d3d9, #2b8bb8);
+    background-image: -moz-linear-gradient(top, #34d3d9, #2b8bb8);
+    background-image: -ms-linear-gradient(top, #34d3d9, #2b8bb8);
+    background-image: -o-linear-gradient(top, #34d3d9, #2b8bb8);
+    background-image: linear-gradient(to bottom, #34d3d9, #2b8bb8);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .bottom-section{
+      background-color: burlywood;
+      padding:2vw 0;
+      margin-top: 4vw;
+  }
+  .copyright{
+      color: black;
+      font-size: 5vw;
+  }
